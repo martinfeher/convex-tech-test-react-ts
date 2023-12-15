@@ -26,7 +26,8 @@ The results are displayed in the table with the list of establishments in the th
 The data are ordered based on the 2 examples of schemes in England and Scotland.
 
 ### Pagination
-The api to retrieve the establishments in the selected local authority according to https://api.ratings.food.gov.uk/Help/Index#Establishments  is using api call: http://api.ratings.food.gov.uk/Establishments?localAuthorityId=localAUthorityId
-The mentioned pageSize in the implementation notes is not a part of this Rest Api endpoint.
+The results have implemented pagination.
+The api to retrieve the establishments in the selected local authority according to https://api.ratings.food.gov.uk/Help/Index#Establishments is using api call: http://api.ratings.food.gov.uk/Establishments?localAuthorityId=localAUthorityId.
+The mentioned pageSize in the implementation notes is not a part of this Rest Api endpoint. 
 It does not allow pagination on the server side via Rest Api when the authority is selected, it has been tested.
-The pagination with working page size parameter is done on client side via React javascript as a solution.
+The pagination with working page size parameter is done on client side via React Javascript as a working solution.
