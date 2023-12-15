@@ -2,7 +2,8 @@
 
 You'll need to install Node.js >= v14.16+ and yarn
 
-Clone the repository with the following command: git clone https://github.com/martinfeher/convex-tech-test-react-ts.git Use terminal and navigate to the project root.
+Clone the repository with the following command: `git clone https://github.com/martinfeher/convex-tech-test-react-ts.git` 
+Use terminal and navigate to the project root.
 
 Then run : `yarn install` to install dependencies
 
